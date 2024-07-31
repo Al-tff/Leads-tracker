@@ -1,0 +1,43 @@
+body{
+
+    margin: 0;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    min-width:  350px; 
+    background-color: #e6f0e7;
+}
+input{
+    width: 90%;
+    height: 2rem;
+    margin: 10px;
+    box-sizing: border-box;
+}
+button{
+    background-color: rgb(54, 180, 54);
+    border: none;
+    width: 25%;
+    height: 2rem;
+    color: rgb(245, 229, 229);
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 11px;
+    padding: 2px;
+    border-radius: 1mm;
+    min-width: 100px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+button:hover{
+    background-color: darkgreen;
+}
+a{
+    color:  rgb(54, 180, 54); 
+    text-decoration: none;   
+}
+a:hover{
+    text-decoration: underline;
+}
+li{
+    list-style: none;
+    padding: 0.3em 0;
+}
